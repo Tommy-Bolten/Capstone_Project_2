@@ -1,0 +1,4 @@
+Model,Accuracy,Hyperparameters,Key Features
+Logistic Regression,0.79,,"Tenure, MonthlyCharges, Contract"
+Random Forest,0.8,"max_depth=40, max_features='log2',min_samples_leaf = 10, min_samples_split=10","Tenure, MonthlyCharges, Contract, TotalCharges"
+Support Vector Classifier,0.79,"C=1.0, kernel='linear'","Tenure, MonthlyCharges, Contract"
